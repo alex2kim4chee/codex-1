@@ -1,17 +1,32 @@
-Site Map & Content Blocks
+# Elena's Integrative Healing Website
 
-Home – Hero statement + “Book a Discovery Call” CTA
+This project contains a simple static website for Elena's shamanic healing practice. The goal is to present her services and philosophy in clear English for a U.S. audience while honoring her depth and lineage.
 
-About Elena – Credentials, lineage timeline, soulful “why.”
+## Getting Started
 
-Services – Individual cards with session length, investment, and benefits.
+The pages live under the `src/` directory. You can view them by opening `src/index.html` in your browser or by running a local web server:
 
-What to Expect – Walk-through of a typical session, prep tips, after-care.
+```bash
+python3 -m http.server --directory src
+```
 
-Client Stories – Invite testimonials emphasizing transformation levels 1-5 (pain → wholeness).
+Then navigate to `http://localhost:8000`.
 
-Resources & Blog – Articles on energy hygiene, Dao insights, ritual guides.
+## Site Map
 
-Book Now – Scheduler widget + consent/disclaimer (not medical care).
+- **Home** – Hero statement and "Book a Discovery Call" button
+- **About Elena** – Credentials, lineage timeline, and personal "why"
+- **Services** – Cards outlining each session type
+- **What to Expect** – Walk-through of a typical session
+- **Client Stories** – Testimonials highlighting transformation
+- **Resources & Blog** – Articles and glossary
+- **Book Now** – Scheduler widget with consent disclaimer
+- **Contact & Location** – In-person or distance sessions
 
-Contact & Location – In-person (if applicable) + distance/online sessions.
+## Contributing
+
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on style and submitting pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

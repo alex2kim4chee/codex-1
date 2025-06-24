@@ -1,0 +1,10 @@
+# Node and dependency directories
+node_modules/
+
+# Build output
+/dist/
+
+# Editor files
+*.swp
+*.log
+.DS_Store
