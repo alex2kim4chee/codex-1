@@ -27,6 +27,17 @@ Then navigate to `http://localhost:8000`.
 
 Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on style and submitting pull requests.
 
+## Deploying to GitHub Pages
+
+The site files live in the `docs/` directory. Configure GitHub Pages to serve
+from the **main branch** and the `/docs` folder so that the content is hosted
+correctly.
+
+1. In your repository, go to **Settings**.
+2. Select **Pages** from the sidebar.
+3. Under **Build and deployment**, choose **Deploy from a branch** and set the
+   source to `main` and the folder to `/docs`.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
