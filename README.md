@@ -4,10 +4,10 @@ This project contains a simple static website for Elena's shamanic healing pract
 
 ## Getting Started
 
-The pages live under the `src/` directory. You can view them by opening `src/index.html` in your browser or by running a local web server:
+The pages live under the `docs/` directory. You can view them by opening `docs/index.html` in your browser or by running a local web server:
 
 ```bash
-python3 -m http.server --directory src
+python3 -m http.server --directory docs
 ```
 
 Then navigate to `http://localhost:8000`.
